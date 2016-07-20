@@ -1,5 +1,7 @@
 package vividseats.challenge.gameOfLife;
 
+import java.io.IOException;
+
 /**
  * Created by eugen on 7/19/2016.
  */
@@ -29,17 +31,25 @@ public class Board {
         return this.boardGrid;
     }
 
-    public void setBoardGrid(int[][] integerGrid) {
-        setTotalAlive(0);
-        setTotalDead(0);
-        for (int i = 0; i <getyGrid() ; i++) {
-            for (int j = 0; j <getxGrid() ; j++) {
-                if (integerGrid[i][j]==1){
-                    boardGrid[i][j]=new Cell(true);
-                    this.totalAlive++;
-                }else{boardGrid[i][j]=new Cell(false);
-                    this.totalDead++;
+    public void setBoardGrid(int[][] integerGrid) throws Exception {
+
+        if (integerGrid.length!=getyGrid()||integerGrid[0].length!=getxGrid()){
+            throw new Exception("Grid dimensions do not match with board dimensions");
+        }else {
+
+            setTotalAlive(0);
+            setTotalDead(0);
+            for (int i = 0; i < getyGrid(); i++) {
+                for (int j = 0; j < getxGrid(); j++) {
+                    if (integerGrid[i][j] == 1) {
+                        boardGrid[i][j] = new Cell(true);
+                        this.totalAlive++;
+                    } else {
+                        boardGrid[i][j] = new Cell(false);
+                        this.totalDead++;
+                    }
                 }
+
             }
 
         }

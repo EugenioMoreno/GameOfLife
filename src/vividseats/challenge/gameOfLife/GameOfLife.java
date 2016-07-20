@@ -2,27 +2,22 @@ package vividseats.challenge.gameOfLife;
 
 public class GameOfLife {
     public static int generation=1;
-    protected static boolean endGame=false;
-    protected static boolean tiedGame=false;
+    public static boolean tiedGame=false;
 
     public static void main(String[] args) {
         //Create the board
-        Board board=new Board(3,3);
+        Board board=new Board(5,7);
         //Initialize it with random values
         board.setRandomGrid();
 
         //Print the first generation
-        System.out.println("Generation"+generation);
+        System.out.println("Generation: "+generation);
         board.printBoard();
-        //Play the game until there is a final situation
-        while(!endGame){
-            playGame(board);
-        }
-
+        //Recursive call which runs the game until there is a final situation (tail recursive)
+        playGame(board);
     }
     public static void playGame(Board b){
         tiedGame=true;
-        endGame=false;
         generation++;
         //Create and set up a buffer for the Board
         Board auxBoard=new Board(b.getyGrid(),b.getxGrid());
@@ -45,28 +40,30 @@ public class GameOfLife {
             }
         }
         b.copyBoardFrom(auxBoard);
-        System.out.println("Generation"+generation);
+        System.out.println("Generation: "+generation);
         b.printBoard();
         //Check if there is a final situation
-        checkResult(b);
+        if(!isFinished(b))
+            playGame(b);
     }
 
-    private static void checkResult(Board b) {
+    public static boolean isFinished(Board b) {
         if (b.getTotalAlive()==b.getyGrid()*b.getxGrid()){
-            endGame=true;
             System.out.println("Everyone is alive!:)");
+            return true;
         }
 
         if(b.getTotalAlive()==0){
-            endGame=true;
             System.out.println("Everyone is dead:(");
+            return true;
         }
-        if (tiedGame&&!endGame){
-            endGame=true;
+        if (tiedGame){
             System.out.println("There is an recurrent situation, the final situation is: "+"\n"
                                 +"Number of cells alive= "+b.getTotalAlive()+"\n"
                                 +"Number of dead cells= "+b.getTotalDead()+"\n");
+            return true;
         }
+        return false;
     }
 
     public static int[] countNeighbors(Cell[][] b, int y, int x){

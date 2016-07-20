@@ -2,14 +2,15 @@ package vividseats.challenge.gameOfLife;
 
 public class GameOfLife {
     public static int generation=1;
-    private static boolean endGame=false;
-    private static boolean tiedGame=false;
+    protected static boolean endGame=false;
+    protected static boolean tiedGame=false;
 
     public static void main(String[] args) {
         //Create the board
         Board board=new Board(3,3);
         //Initialize it with random values
         board.setRandomGrid();
+        
         //Print the first generation
         System.out.println("Generation"+generation);
         board.printBoard();
@@ -36,7 +37,9 @@ public class GameOfLife {
                 int aliveNeighbors = neighbors[0];
 
                 auxBoard.getBoardGrid()[i][j].setAlive(classifyCell(currentCell,aliveNeighbors));
-                if (auxBoard.getBoardGrid()[i][j]!=b.getBoardGrid()[i][j]){tiedGame=false;}
+                if (auxBoard.getBoardGrid()[i][j].isAlive()== !b.getBoardGrid()[i][j].isAlive()){
+                    tiedGame=false;
+                }
             }
         }
         b.copyBoardFrom(auxBoard);
@@ -46,7 +49,7 @@ public class GameOfLife {
     }
 
     private static void checkResult(Board b) {
-        if (b.getTotalAlive()==b.getyGrid()+b.getxGrid()){
+        if (b.getTotalAlive()==b.getyGrid()*b.getxGrid()){
             endGame=true;
             System.out.println("Everyone is alive!:)");
         }
@@ -55,7 +58,7 @@ public class GameOfLife {
             endGame=true;
             System.out.println("Everyone is dead:(");
         }
-        if (!tiedGame&&!endGame){
+        if (tiedGame&&!endGame){
             endGame=true;
             System.out.println("There is an recurrent situation, the final situation is: "+"\n"
                                 +"Number of cells alive= "+b.getTotalAlive()+"\n"

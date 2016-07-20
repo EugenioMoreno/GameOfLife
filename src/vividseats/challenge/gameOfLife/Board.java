@@ -30,11 +30,16 @@ public class Board {
     }
 
     public void setBoardGrid(int[][] integerGrid) {
+        setTotalAlive(0);
+        setTotalDead(0);
         for (int i = 0; i <getyGrid() ; i++) {
             for (int j = 0; j <getxGrid() ; j++) {
                 if (integerGrid[i][j]==1){
                     boardGrid[i][j]=new Cell(true);
-                }else{boardGrid[i][j]=new Cell(false);}
+                    this.totalAlive++;
+                }else{boardGrid[i][j]=new Cell(false);
+                    this.totalDead++;
+                }
             }
 
         }

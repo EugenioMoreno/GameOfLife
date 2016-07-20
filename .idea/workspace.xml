@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.5695067">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOfLifeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameOfLifeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLifeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5515695">
-              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,9 +49,10 @@
         <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_TwoPlayersGameOfLife.zip/TwoPlayerGameOfLifeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="60" />
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#834#835#0" expanded="false" />
+                <element signature="e#901#902#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -62,9 +63,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="201" column="33" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/Board.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding>
                 <element signature="e#440#441#0" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
@@ -81,14 +80,14 @@
                 <element signature="e#525#526#0" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
                 <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,9 +137,9 @@
         <option value="$PROJECT_DIR$/src/java/vividseats/challenge/Main.java" />
         <option value="$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/Main.java" />
         <option value="$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/Cell.java" />
-        <option value="$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/Board.java" />
         <option value="$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLifeTest.java" />
+        <option value="$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLife.java" />
       </list>
     </option>
   </component>
@@ -751,29 +750,44 @@
       <created>1468907282227</created>
       <option name="number" value="Default" />
       <updated>1468907282227</updated>
-      <workItem from="1468907285533" duration="18243000" />
+      <workItem from="1468907285533" duration="22235000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameOfLifeTest - 2016.07.19 at 19h 32m 28s.xml">
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 13m 32s.xml">
       <configuration name="GameOfLifeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameOfLifeTest - 2016.07.19 at 19h 33m 36s.xml">
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 15m 00s.xml">
       <configuration name="GameOfLifeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameOfLifeTest - 2016.07.19 at 19h 35m 26s.xml">
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 15m 20s.xml">
       <configuration name="GameOfLifeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameOfLifeTest - 2016.07.19 at 19h 35m 48s.xml">
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 16m 43s.xml">
       <configuration name="GameOfLifeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameOfLifeTest - 2016.07.19 at 19h 36m 20s.xml">
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 20m 29s.xml">
+      <configuration name="GameOfLifeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 22m 18s.xml">
+      <configuration name="GameOfLifeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 37m 48s.xml">
+      <configuration name="GameOfLifeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 41m 28s.xml">
+      <configuration name="GameOfLifeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 41m 47s.xml">
+      <configuration name="GameOfLifeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameOfLifeTest - 2016.07.19 at 20h 52m 20s.xml">
       <configuration name="GameOfLifeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18243000" />
+    <option name="totallyTimeSpent" value="22235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1934" height="1030" extended-state="0" />
@@ -787,7 +801,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39775562" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -795,7 +809,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.553616" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37531173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -834,7 +848,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -866,20 +880,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_TwoPlayersGameOfLife.zip/TwoPlayerGameOfLife.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_TwoPlayersGameOfLife.zip/TwoPlayerGameOfLifeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="201" column="33" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLife.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_TwoPlayersGameOfLife.zip/TwoPlayerGameOfLife.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="201" column="33" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -887,7 +902,7 @@
     <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding>
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
@@ -895,35 +910,33 @@
             <element signature="e#525#526#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_TwoPlayersGameOfLife.zip/TwoPlayerGameOfLifeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLifeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5515695">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vividseats/challenge/gameOfLife/GameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5695067">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
